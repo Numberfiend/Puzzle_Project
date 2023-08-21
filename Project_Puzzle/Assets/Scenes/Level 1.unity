@@ -873,7 +873,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Oh look over there a key. If we gather all 6 of them we can escape the
+  m_text: Oh look over there a key. If you gather all 6 of them you can escape the
     lab
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1247,6 +1247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd2843156a77594da48acc17e817281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  complete: 0
 --- !u!1 &1706587147
 GameObject:
   m_ObjectHideFlags: 0
