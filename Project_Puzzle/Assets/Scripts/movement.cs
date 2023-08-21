@@ -16,7 +16,7 @@ public class Movement : MonoBehaviour
     public float checkRadius;
     public LayerMask whatisground;
 
-    public int extrajump;
+    public int extrajump = 1;
 
     void Start()
     {
@@ -53,6 +53,7 @@ public class Movement : MonoBehaviour
      else if(Input.GetKeyDown(KeyCode.W) && extrajump == 0 && gcheck == true)
         {
             rb.velocity = Vector2.up * jumpspeed;
+            extrajump--;
         }
     }
     void flip()
