@@ -391,6 +391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 253363418}
   - component: {fileID: 253363417}
+  - component: {fileID: 253363419}
   m_Layer: 0
   m_Name: key3
   m_TagString: Untagged
@@ -465,6 +466,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &253363419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253363415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0f3c039a5b3894280225c5af4e3917, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unlock3: 0
+  newcolor: {r: 0.91764706, g: 1, b: 0, a: 1}
 --- !u!1001 &342798318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -676,6 +691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 463350813}
   - component: {fileID: 463350812}
+  - component: {fileID: 463350814}
   m_Layer: 0
   m_Name: key5
   m_TagString: Untagged
@@ -750,6 +766,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &463350814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463350810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ff55c24527617942a6ce07da87d4866, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unlock5: 0
+  newcolor: {r: 0.91764706, g: 1, b: 0, a: 1}
 --- !u!224 &499056131 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2115353062917514670, guid: 3b95b232ff779d3449732f5170696c71, type: 3}
@@ -1094,6 +1124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1412137982}
   - component: {fileID: 1412137981}
+  - component: {fileID: 1412137983}
   m_Layer: 0
   m_Name: key2
   m_TagString: Untagged
@@ -1168,6 +1199,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1412137983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412137979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83170ab7f9e725d4481d295c5dd97d95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unlock2: 0
+  newcolor: {r: 0.91764706, g: 1, b: 0, a: 1}
 --- !u!1 &1420767107
 GameObject:
   m_ObjectHideFlags: 0
@@ -1178,6 +1223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1420767110}
   - component: {fileID: 1420767109}
+  - component: {fileID: 1420767111}
   m_Layer: 0
   m_Name: key6
   m_TagString: Untagged
@@ -1252,6 +1298,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1420767111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420767107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f547943fa161c54fb352be0f3d9e478, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unlock6: 0
+  newcolor: {r: 0.91764706, g: 1, b: 0, a: 1}
 --- !u!1 &1506996470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1707,6 +1767,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2044030413}
   - component: {fileID: 2044030412}
+  - component: {fileID: 2044030414}
   m_Layer: 0
   m_Name: key4
   m_TagString: Untagged
@@ -1781,6 +1842,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2044030414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044030410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c0b81192c48b9428b275eb24089ce8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unlock4: 0
+  newcolor: {r: 0.91764706, g: 1, b: 0, a: 1}
 --- !u!224 &2060506497 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2115353062917514670, guid: 3b95b232ff779d3449732f5170696c71, type: 3}
