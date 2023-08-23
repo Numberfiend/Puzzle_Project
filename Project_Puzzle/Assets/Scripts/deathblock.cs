@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class deathblock : MonoBehaviour
 {
@@ -14,8 +15,11 @@ public class deathblock : MonoBehaviour
     {
         if(coll.gameObject.tag == "deathb")
         {
+            OpenScene();
             Debug.Log("Hit deathblock");
             Destroy(this.gameObject);
+           
+
         }
     }
 
@@ -23,5 +27,9 @@ public class deathblock : MonoBehaviour
     void Update()
     {
        
+    }
+    public void OpenScene()
+    {
+        SceneManager.LoadScene("LevelFail");
     }
 }
