@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 5007501952997737672}
   - component: {fileID: 823028610385098490}
   - component: {fileID: 4254070982646119604}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dropblock
-  m_TagString: Untagged
+  m_TagString: blockfall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
